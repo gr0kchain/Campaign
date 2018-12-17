@@ -10,7 +10,7 @@ const output = solc.compile(source, 1).contrract;
 fs.ensureDirSync(buildPath);
 for (let contract in output) {
   fs.outputFileSync(
-    path.resolve(buildPath, contract + ".json"),
+    path.resolve(buildPath, contract.replace(":", "") + ".json"),
     output[contract]
   );
 }
