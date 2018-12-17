@@ -1,0 +1,11 @@
+{
+  "name": "campaign",
+  "version": "1.0.0",
+  "description": "Kickstarter Using Ethereum BlockChain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vidit",
+  "license": "ISC"
+}
