@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^7.0.1",
-    "solc": "^0.4.25"
+    "ganache-cli": "^6.2.4",
+    "solc": "^0.4.25",
+    "web3": "^1.0.0-beta.37"
   }
 }
