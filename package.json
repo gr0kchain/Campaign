@@ -4,13 +4,14 @@
   "description": "Kickstarter Using Ethereum BlockChain",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --exec mocha -R min"
+    "test": "nodemon --exec \"mocha -R min\""
   },
   "author": "Vidit",
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^7.0.1",
     "ganache-cli": "^6.2.4",
+    "nodemon": "^1.18.9",
     "solc": "^0.4.25",
     "web3": "^1.0.0-beta.37"
   }
